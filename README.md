@@ -1,2 +1,1 @@
-"# shanksbot" 
 "# mydiscordbot" 
