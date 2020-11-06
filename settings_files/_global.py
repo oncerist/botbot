@@ -15,8 +15,8 @@ REDDIT_ENABLED_ANIME_SUBREDDITS = [
     'anime',
 ]
 REDDIT_ENABLED_NSFW_SUBREDDITS = [
-    'kpopfap'
-    'kpics'
+    'kpopfap',
+    'kpics',
 ]
 
 # Permissions
