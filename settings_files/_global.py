@@ -5,7 +5,7 @@ ROOT_DIR = os.path.dirname(SETTINGS_DIR)
 DATA_DIR = os.path.join(ROOT_DIR, 'data')
 
 # Discord Conf
-DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN", False)
+token = os.getenv("token", False)
 
 # Reddit Configuration
 REDDIT_APP_ID = os.getenv("REDDIT_APP_ID", False)
