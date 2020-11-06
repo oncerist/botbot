@@ -11,12 +11,13 @@ token = os.getenv("token", False)
 REDDIT_APP_ID = os.getenv("REDDIT_APP_ID", False)
 REDDIT_APP_SECRET = os.getenv("REDDIT_APP_SECRET", False)
 REDDIT_ENABLED_ANIME_SUBREDDITS = [
-    'waifu',
-    'anime',
+    'Waifu',
+    'Anime',
 ]
 REDDIT_ENABLED_NSFW_SUBREDDITS = [
     'kpopfap',
     'kpics',
+    
 ]
 
 # Permissions
