@@ -18,7 +18,7 @@ class Images(commands.Cog):
                                       user_agent="ULTIMATE_DISCORD_BOT:%s:1.0" % REDDIT_APP_ID)
 
     @commands.command()
-    async def random(self, ctx, subreddit: str = ""):
+    async def reddit(self, ctx, subreddit: str = ""):
         async with ctx.channel.typing():
             if self.reddit:
                 # start working
@@ -45,7 +45,7 @@ class Images(commands.Cog):
 
                 submissions = self.reddit.subreddit(chosen_subreddit).hot()
 
-                post_to_pick = random.randint(1, 10)
+                post_to_pick = reddit.randint(1, 10)
                 for i in range(0, post_to_pick):
                     submission = next(x for x in submissions if not x.stickied)
                 await ctx.send(submission.url)
