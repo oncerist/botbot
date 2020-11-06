@@ -32,7 +32,7 @@ class Images(commands.Cog):
                         chosen_subreddit = subreddit
                         nsfw_flag = True
                     else:
-                        list_memes = ", ".join(REDDIT_ENABLED_ANIME_SUBREDDITS)
+                        list_anime = ", ".join(REDDIT_ENABLED_ANIME_SUBREDDITS)
                         list_nsfw = ", ".join(REDDIT_ENABLED_NSFW_SUBREDDITS)
 
                         await ctx.send("Please choose a subreddit of the following list: %s NSFW Channels:%s" % (list_memes, list_nsfw))
