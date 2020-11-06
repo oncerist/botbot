@@ -4,7 +4,7 @@ from discord.ext import commands
 
 from settings import *
 
-bot = commands.Bot(command_prefix="!")
+bot = commands.Bot(command_prefix="$")
 
 for filename in os.listdir("./cogs"):
     if filename.endswith(".py") and filename != "__init__.py":
