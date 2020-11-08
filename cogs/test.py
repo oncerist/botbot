@@ -5,9 +5,9 @@ class Test(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.command()
+    @bot.command()
     async def hello(ctx):
-        await ctx.send('Hi pakyu')
+        await ctx.send("Hi pakyu")
 
 
 def setup(bot):
