@@ -7,7 +7,7 @@ class Test(commands.Cog):
 
     @commands.command()
     async def hello(ctx):
-        await ctx.send(Hi pakyu)
+        await ctx.send("Hi pakyu")
 
 
 def setup(bot):
