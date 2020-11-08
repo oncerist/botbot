@@ -6,8 +6,8 @@ class Test(commands.Cog):
         self.bot = bot
 
     @commands.command()
-    async def hello(self, ctx, *args):
-        await ctx.send(",".join(args))
+    async def hello(ctx):
+        await ctx.send(Hi pakyu)
 
 
 def setup(bot):
